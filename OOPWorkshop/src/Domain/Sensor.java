@@ -17,6 +17,14 @@ public abstract class Sensor {
         this.sensorID = id;
     
 }
+
+    public int getSensorID() {
+        return sensorID;
+    }
+
+    public void setSensorID(int sensorID) {
+        this.sensorID = sensorID;
+    }
     
     public abstract double getReading() ; 
     

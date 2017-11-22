@@ -5,10 +5,24 @@
  */
 package Domain;
 
+import java.util.List;
+import java.util.Map;
+
 /**
  *
  * @author Victor Gram
  */
 public class DomainFacade {
+    public List<Building> buildingList;
+    public Map<Integer, Map<Integer, Map<Integer, Map<Integer, Map<Integer, Double>>>>> readingHistory;
+    
+    
+    public Building getbuilding(int i) { 
+        return buildingList.get(i);
+    }
+    
+    public void addBuilding (Building building) { 
+        buildingList.add(building);
+    }
     
 }
