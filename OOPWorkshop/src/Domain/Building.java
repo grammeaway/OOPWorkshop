@@ -7,6 +7,7 @@ package Domain;
 
 import Aqr.IBuilding;
 import Aqr.ISensor;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -21,6 +22,7 @@ public class Building implements IBuilding {
     public Building (String name, String location) { 
         this.name = name; 
         this.location = location;
+        sensorMap = new HashMap<>(); 
     }
     
     @Override
