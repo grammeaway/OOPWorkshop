@@ -5,19 +5,24 @@
  */
 package Domain;
 
+import Aqr.ISensor;
+
 /**
  *
  * @author Victor Gram
  */
-public abstract class Sensor {
+public abstract class Sensor implements ISensor {
     private double reading; 
     private int sensorID;
+    private final int TYPE; 
     
-    public Sensor (int id) {
+    public Sensor (int id, int type) {
         this.sensorID = id;
+        this.TYPE = type;
     
 }
 
+    @Override
     public int getSensorID() {
         return sensorID;
     }
@@ -26,6 +31,12 @@ public abstract class Sensor {
         this.sensorID = sensorID;
     }
     
-    public abstract double getReading() ; 
+    @Override
+    public abstract double getReading(); 
+
+    @Override
+    public int getTYPE() {
+        return TYPE; 
+    }
     
 }

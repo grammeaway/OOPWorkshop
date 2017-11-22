@@ -12,7 +12,7 @@ package Domain;
 public class Co2Sensor extends Sensor {
 
     public Co2Sensor(int id) {
-        super(id);
+        super(id, 1);
     }
     
 
