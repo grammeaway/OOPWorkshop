@@ -49,8 +49,4 @@ public class DomainFacade implements IDomainFacade {
     public void removeBuilding(int i) {
         buildingList.remove(i); 
     }
-    
-    hellohewifoh wrf
-            
-    
 }
