@@ -62,6 +62,11 @@ public class Building implements IBuilding {
         return sensorMap;
     }
     
+    @Override 
+    public String toString () {
+        return "Name: " + name + "\n" + "Location: " + location;
+    }
+    
     
     
 }

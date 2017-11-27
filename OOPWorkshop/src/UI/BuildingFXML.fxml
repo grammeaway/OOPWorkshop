@@ -7,6 +7,26 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
+<!--
+<HBox fx:id="root" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.BuildingFXMLController">
+      <children>
+      <ListView fx:id="sensorList" prefHeight="200.0" prefWidth="200.0" />
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#seeDataClicked" text="See data" />
+            <TextField fx:id="sensorTypeField" promptText="type" />
+            <Button mnemonicParsing="false" onMouseClicked="#addSensorClicked" text="Add sensor" />
+            <Button mnemonicParsing="false" onMouseClicked="#removeSensorClicked" text="Remove sensor" />
+            <Button mnemonicParsing="false" onMouseClicked="#selectBuildningClicked" text="Select buildning" />
+         </children>
+      </VBox>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Text fx:id="dataLabel" layoutX="64.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATA" />
+         </children>
+      </Pane>
+   </children> 
+</HBox>-->
 
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.BuildingFXMLController">

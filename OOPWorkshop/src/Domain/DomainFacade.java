@@ -28,6 +28,7 @@ public class DomainFacade implements IDomainFacade {
     
     public void addBuilding (IBuilding building) { 
         buildingList.add(building);
+        
     }
 
     @Override

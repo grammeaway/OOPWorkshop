@@ -18,7 +18,7 @@ public class Co2Sensor extends Sensor {
 
     @Override
     public double getReading() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return (Math.random() * 10);
     }
     
 }

@@ -17,4 +17,5 @@ public interface IDomainFacade {
     void addBuilding(String name, String location);
     void removeBuilding(int i); 
     
+    
 }

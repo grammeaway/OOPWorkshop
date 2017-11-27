@@ -38,5 +38,10 @@ public abstract class Sensor implements ISensor {
     public int getTYPE() {
         return TYPE; 
     }
+
+    @Override
+    public String toString() {
+        return "Sensor ID: " + sensorID + "\n" + "Sensor type: " + TYPE;
+    }
     
 }
